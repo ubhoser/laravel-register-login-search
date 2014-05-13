@@ -19,3 +19,17 @@ Documentation for the entire framework can be found on the [Laravel website](htt
 ### License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+
+## Welcome to the laravel-register-login-search wiki!
+
+This application uses laravel 4 as backend, jquery as JS and bootstrap as frontend - CSS.
+
+To run this application
+
+- Clone it.
+- Make sure you have laravel 4. Use composer to update your laravel in case.
+- Create a new mysql - database. Put the database name in databases.php file in app/config/databases.php. The name from my database is hellofresh
+- On console 
+  - php artisan migrate
+  - php artisan db:seed to add the Persons, which i put in the database for the search function.
+
