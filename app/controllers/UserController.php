@@ -57,7 +57,7 @@ class UserController extends BaseController {
     $rules = array(
       'name' => 'required',
       'email' => 'required|unique:users|email',
-      'password' => 'required'
+      'password' => 'required|min:8'
     );
     $validator = Validator::make($inputs, $rules);
 
